@@ -6,10 +6,16 @@ export const styles = StyleSheet.create({
     container: {
         padding: 24,
     },
-    image: {
-
+    agreeRow: {
+        flexDirection: 'row',
+        alignItems: 'center'
     },
-    title: {
-        
+    agreeText: {
+        color: colors.blue,
+        marginHorizontal: 14
+    },
+    agreeTextBold: {
+        fontWeight: 'bold',
+        color: '#00008B'
     }
 })
